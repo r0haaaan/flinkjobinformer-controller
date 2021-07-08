@@ -1,0 +1,7 @@
+apiVersion: "in.rohaan/v1"
+kind: FlinkJob
+metadata:
+  name: my-new-cron-object
+spec:
+  flinkJobSpec: "* * * * */5"
+  image: my-awesome-cron-image

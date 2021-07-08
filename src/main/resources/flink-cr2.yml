@@ -1,0 +1,7 @@
+apiVersion: "in.rohaan/v1"
+kind: FlinkJob
+metadata:
+  name: flinkjob2
+spec:
+  flinkJobSpec: "* * * * */5"
+  image: my-second-cron-image
